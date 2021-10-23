@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,gBAAgB,ECCd,OAAgB;CDArB",
+    "sources": [
+        "oil-gas.scss",
+        "_colors.scss",
+        "_media-queries.scss"
+    ],
+    "names": [],
+    "file": "oil-gas.css"
+}

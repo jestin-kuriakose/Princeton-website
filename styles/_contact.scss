@@ -1,0 +1,49 @@
+@import 'colors';
+@import 'media-queries';
+
+.contact {
+    height: 800px;
+    background-color: $light;
+    & h1 {
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 50px;
+    }
+    & .container {
+        padding: 100px;
+        
+        & .grid {
+            display: grid;
+            grid-template-rows: (50px, 100px, 50px);
+            justify-content: center;
+
+            & label {
+                padding-top: 10px;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+            & input {
+                width: 400px;
+                height: 30px;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+
+            & textarea {
+                width: 400px;
+                height: 300px;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+            & button {
+                background-color: $red;
+                color: $light;
+                font-size: 1rem;
+                margin-top: 10px;
+                height: 50px;
+                width: 70px;
+            }
+        }
+    }
+}

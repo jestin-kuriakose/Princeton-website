@@ -1,0 +1,35 @@
+@import 'colors';
+@import 'media-queries';
+
+.oil-gas {
+    background-color: $light;
+
+    & .container {
+        padding: 100px;
+        line-height: 2rem;
+        & h1 {
+            font-size: 3rem;
+            text-align: center;
+            padding: 20px;
+        }
+        & h3 {
+            font-size: 1.5rem;
+            padding: 20px;
+        }
+        & .grid {
+            display: grid;
+            grid-template-rows: repeat(6, 1fr);
+
+            & .card {
+                padding: 20px;
+
+                & h2 {
+                    font-size: 1.5rem;
+                }
+                & p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

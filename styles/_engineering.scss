@@ -1,0 +1,9 @@
+@import 'colors';
+@import 'media-queries';
+
+.engineering {
+    height: 600px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: $light;
+}
